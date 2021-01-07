@@ -10,6 +10,10 @@ namespace Trimmel_MoneyTracker
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
+
+
+            Console.ReadKey();
         }
     }
 }
