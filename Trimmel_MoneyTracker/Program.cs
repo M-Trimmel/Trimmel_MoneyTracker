@@ -11,6 +11,7 @@ namespace Trimmel_MoneyTracker
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+            Console.WriteLine("I'm tracking Money");
 
 
             Console.ReadKey();

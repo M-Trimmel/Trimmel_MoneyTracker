@@ -10,5 +10,6 @@ namespace Trimmel_MoneyTracker
     {
         public string name { get; set; }
         public string age { get; set; }
+        public int money { get; set; }
     }
 }
