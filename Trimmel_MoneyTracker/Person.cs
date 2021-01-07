@@ -8,5 +8,6 @@ namespace Trimmel_MoneyTracker
 {
     class Person
     {
+        public string name;
     }
 }
