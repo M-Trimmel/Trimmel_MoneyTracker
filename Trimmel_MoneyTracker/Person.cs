@@ -12,6 +12,8 @@ namespace Trimmel_MoneyTracker
         internal int Age { get; set; }
         internal int Money { get; set; }
 
+
+
         public Person(string name, int age, int money)
         {
             Name = name;
