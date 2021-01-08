@@ -12,11 +12,11 @@ namespace Trimmel_MoneyTracker
         public int Age { get; set; }
         public int Money { get; set; }
 
-        public Person(string n, int a, int m)
+        public Person(string name, int age, int money)
         {
-            Name = n;
-            Age = a;
-            Money = m;
+            Name = name;
+            Age = age;
+            Money = money;
         }
     }
 }
