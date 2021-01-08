@@ -8,9 +8,9 @@ namespace Trimmel_MoneyTracker
 {
     class Person
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public int Money { get; set; }
+        internal string Name { get; set; }
+        internal int Age { get; set; }
+        internal int Money { get; set; }
 
         public Person(string name, int age, int money)
         {
