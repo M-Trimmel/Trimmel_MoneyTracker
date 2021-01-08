@@ -12,6 +12,7 @@ namespace Trimmel_MoneyTracker
         {
             Console.WriteLine("Hello");
             Console.WriteLine("I'm tracking Money");
+            Console.WriteLine("Hallo Muhammed");
 
 
             Console.ReadKey();
