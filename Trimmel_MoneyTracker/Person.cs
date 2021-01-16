@@ -12,14 +12,16 @@ namespace Trimmel_MoneyTracker
         internal int Alter { get; set; }
         internal string Vorname { get; set; }
         internal int Money { get; set; }
+        internal string Arbeitslos { get; set; }
 
 
 
-        public Person(string name, int alter, int money)
+        public Person(string name, int alter, int money, string arbeitslos)
         {
             Alter = alter;
             Vorname = name;
             Money = money;
+            Arbeitslos = arbeitslos;
         }
     }
 }
