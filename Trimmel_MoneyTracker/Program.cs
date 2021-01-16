@@ -14,6 +14,8 @@ namespace Trimmel_MoneyTracker
             Console.WriteLine("I'm tracking Money");
             Console.WriteLine("Hallo Muhammed");
 
+            Console.WriteLine("Testen");
+            Console.WriteLine("Account Funktion");
 
             Console.ReadKey();
         }
