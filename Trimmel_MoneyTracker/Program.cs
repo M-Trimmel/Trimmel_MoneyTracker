@@ -17,6 +17,8 @@ namespace Trimmel_MoneyTracker
             Console.WriteLine("Testen");
             Console.WriteLine("Account Funktion");
 
+            Console.WriteLine("Branch entfernt");
+
             Console.ReadKey();
         }
     }
