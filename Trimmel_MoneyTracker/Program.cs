@@ -19,6 +19,8 @@ namespace Trimmel_MoneyTracker
 
             Console.WriteLine("Branch entfernt");
 
+            Console.WriteLine("Branch entfernt");
+
             Console.WriteLine("Muhammed ist hier");
             Console.ReadKey();
         }
