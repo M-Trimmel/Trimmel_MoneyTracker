@@ -11,7 +11,7 @@ namespace Trimmel_MoneyTracker
 
         internal int Alter { get; set; }
         internal string Vorname { get; set; }
-        internal int Money { get; set; }
+        internal int Geld { get; set; }
 
 
 
@@ -19,7 +19,7 @@ namespace Trimmel_MoneyTracker
         {
             Alter = alter;
             Vorname = name;
-            Money = money;
+            Geld = money;
         }
     }
 }
