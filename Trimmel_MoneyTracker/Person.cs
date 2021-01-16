@@ -8,16 +8,17 @@ namespace Trimmel_MoneyTracker
 {
     class Person
     {
+
+        internal int Alter { get; set; }
         internal string Vorname { get; set; }
-        internal int Age { get; set; }
         internal int Money { get; set; }
 
 
 
-        public Person(string name, int age, int money)
+        public Person(string name, int alter, int money)
         {
+            Alter = alter;
             Vorname = name;
-            Age = age;
             Money = money;
         }
     }
