@@ -9,15 +9,15 @@ namespace Trimmel_MoneyTracker
     class Person
     {
         internal string Name { get; set; }
-        internal int Age { get; set; }
+        internal int Alter { get; set; }
         internal int Money { get; set; }
 
 
 
-        public Person(string name, int age, int money)
+        public Person(string name, int alter, int money)
         {
             Name = name;
-            Age = age;
+            Alter = alter;
             Money = money;
         }
     }
